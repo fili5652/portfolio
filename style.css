@@ -29,6 +29,13 @@
   animation-direction: alternate;
 }
 
+#sortdut1:hover,
+#lilladut1:hover,
+#guldut1:hover {
+  animation: pause;
+  transform: scale(1.1);
+}
+
 #lilladut1 {
   position: absolute;
   top: 20%;
@@ -92,10 +99,18 @@ h1 {
   width: 25%;
 }
 
-#guldut2:hover {
+#guldut2:hover,
+#hviddut2:hover,
+#lilladut2:hover,
+#sortdut2:hover,
+#groendut2:hover {
   transform: scale(1.2);
   transition: 1s;
   cursor: pointer;
+}
+
+#guldut2:hover {
+  background-image: url(billeder/SVG/guldut22.svg);
 }
 
 #hviddut2 {
@@ -175,19 +190,6 @@ h1 {
   display: grid;
   grid-template-rows: 1fr 1fr;
 } */
-
-/* HER STARTER INDHOLD TEMA 2 */
-
-.tema2 {
-  display: grid;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background: url(billeder/SVG/tema2baggrund.svg) no-repeat;
-  grid-template-columns: 1fr 1.7fr;
-  grid-template-rows: 1fr;
-  position: relative;
-}
-
 h2 {
   font-size: 1.2rem;
   font-family: "Be Vietnam Pro", sans-serif;
@@ -202,38 +204,4 @@ p {
   font-family: "Be Vietnam Pro", sans-serif;
   opacity: 100%;
   position: relative;
-}
-
-.tema2tekst {
-  padding: 0% 15%;
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.billedertema2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-}
-
-.tosmaa {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 2.5fr 0.5fr;
-}
-
-.billedertema2 img {
-  max-width: 95%;
-  /* box-shadow: 10px 10px 5px rgb(90, 90, 90);
-  -moz-box-shadow: 10px 10px 5px rgb(90, 90, 90)
-  -webkit-box-shadow: 10px 10px 5px rgb(90, 90, 90);
-  -khtml-box-shadow: 10px 10px 5px rgb(90, 90, 90); */
-}
-
-.caption {
-  display: block;
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 0.7rem;
-  padding-top: 0.5%;
-  font-style: italic;
 }
