@@ -1,0 +1,40 @@
+/* HER STARTER INDHOLD TEMA 2 */
+
+.tema2 {
+  display: grid;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: url(billeder/SVG/tema2baggrund.svg) no-repeat;
+  grid-template-columns: 1fr 1.7fr;
+  grid-template-rows: 1fr;
+  position: relative;
+}
+
+.tema2tekst {
+  padding: 0% 15%;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.billedertema2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.tosmaa {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2.5fr 0.5fr;
+}
+
+.billedertema2 img {
+  max-width: 95%;
+}
+
+.caption {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 0.7rem;
+  padding-top: 0.5%;
+  font-style: italic;
+}
