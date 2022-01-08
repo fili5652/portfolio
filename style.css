@@ -163,7 +163,6 @@ h1 {
   top: 0;
   left: 0;
   background-color: white;
-  background-image: url(billeder/SVG/groendut2.svg);
   background-size: cover;
   transition: 0.7s;
   overflow: hidden;
@@ -180,6 +179,15 @@ h1 {
   color: #000;
   margin: 20px 0;
   padding: 0;
+  text-decoration: none;
+  font-family: "Vollkorn", serif;
+}
+
+.menu_content h2:hover {
+  color: #00ff00;
+  margin: 20px 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 .nav_wrapper img {
