@@ -1,0 +1,23 @@
+.ommig {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* background: url(billeder/SVG/skybaggrund.png) no-repeat; */
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+}
+
+.ommigtekst {
+  padding: 0% 15%;
+  grid-column: 1;
+  grid-row: 1fr 1fr;
+}
+
+.cv {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gif {
+  max-width: 95%;
+}
