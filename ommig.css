@@ -1,9 +1,10 @@
 .ommig {
   padding-top: 5%;
   padding-bottom: 5%;
-  /* background: url(billeder/SVG/skybaggrund.png) no-repeat; */
+  background: url(billeder/SVG/ommigbaggrund.svg) no-repeat;
   display: grid;
   grid-template-columns: 1.7fr 1fr;
+  position: relative;
 }
 
 .ommigtekst {
@@ -18,6 +19,8 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.gif {
+.gif img {
   max-width: 95%;
+  border-radius: 50%;
+  border: 1px solid #000;
 }

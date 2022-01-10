@@ -1,0 +1,53 @@
+iframe {
+  padding-top: 2rem;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+video {
+  padding-top: 2rem;
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 1200px;
+}
+
+.videohjemmeside {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+/* HER STARTER INDHOLD TEMA 4 */
+
+.tema5 {
+  justify-content: center;
+  background: url(billeder/SVG/tema2baggrund.svg);
+  position: absolute;
+}
+
+.tema5tekst {
+  padding: 2% 25%;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* 
+.tema3tekst1 {
+  padding: 0% 15%;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.billedertema31 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+/* 
+
+
+.billedertema4 img {
+  max-width: 95%;
+  /* border: 1px solid #000; */
