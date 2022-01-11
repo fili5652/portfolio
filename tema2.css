@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .tema2 {
     display: grid;
     padding-top: 5%;
@@ -34,18 +34,19 @@
   .caption {
     font-family: "Be Vietnam Pro", sans-serif;
     font-size: 0.7rem;
-    padding-top: 0.5%;
+    /* padding-top: 0.5%; */
     font-style: italic;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .tema2 {
     padding: 5%;
   }
   .tema2tekst {
     padding-bottom: 5%;
   }
+
   .caption {
     font-family: "Be Vietnam Pro", sans-serif;
     font-size: 0.7rem;

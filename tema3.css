@@ -1,10 +1,10 @@
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .tema3 {
     display: grid;
     padding-top: 5%;
     padding-bottom: 5%;
     background: url(billeder/SVG/tema2baggrund.svg) no-repeat;
-    grid-template-columns: 1fr 1.7fr;
+    grid-template-columns: 1fr 1.2fr;
     grid-template-rows: 1fr;
     position: relative;
   }
@@ -29,7 +29,7 @@
   .caption {
     font-family: "Be Vietnam Pro", sans-serif;
     font-size: 0.7rem;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     font-style: italic;
   }
 
@@ -61,7 +61,7 @@
     border: 2px solid #000;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .tema3 {
     padding: 5%;
     background: url(billeder/SVG/tema2baggrund.svg) no-repeat;
@@ -73,7 +73,7 @@
   .caption {
     font-family: "Be Vietnam Pro", sans-serif;
     font-size: 0.7rem;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     font-style: italic;
   }
   .tema31 {

@@ -46,6 +46,7 @@
     font-size: 0.7rem;
     padding-bottom: 5%;
     font-style: italic;
+    padding-top: 0.5%;
   }
 }
 
@@ -58,9 +59,16 @@
     font-size: 0.7rem;
     padding-bottom: 5%;
     font-style: italic;
+    padding-top: 0.5%;
   }
+
+  .skitse2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .skitse img {
-    max-width: 100%;
+    max-width: 95%;
   }
 
   .tema6 img {

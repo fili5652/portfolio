@@ -212,7 +212,59 @@ p {
   position: relative;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+  #guldut2 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    aspect-ratio: 55.7/77.8;
+    background-image: url(billeder/SVG/guldut2.svg);
+    background-size: cover;
+    width: 25%;
+  }
+
+  #hviddut2 {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    aspect-ratio: 58.1/65.2;
+    background-image: url(billeder/SVG/hviddut2.svg);
+    background-size: cover;
+    width: 30%;
+  }
+
+  #lilladut2 {
+    position: absolute;
+    top: 15%;
+    left: 66%;
+    aspect-ratio: 70.6/69.1;
+    background-image: url(billeder/SVG/lilladut2.svg);
+    background-size: cover;
+    width: 30%;
+  }
+
+  #sortdut2 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    aspect-ratio: 64.5/50.1;
+    background-image: url(billeder/SVG/sortdut2.svg);
+    background-size: cover;
+    width: 35%;
+  }
+
+  #groendut2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    aspect-ratio: 79.8/60.5;
+    background-image: url(billeder/SVG/pinkdut21.svg);
+    background-size: cover;
+    width: 35%;
+  }
+}
+
+@media (max-width: 600px) {
   #sortdut1 {
     top: 20%;
     left: 20%;
