@@ -1,82 +1,82 @@
-/* HER STARTER INDHOLD TEMA 4 */
+@media (min-width: 1000px) {
+  .tema4tekst {
+    padding: 0% 15%;
+    grid-column: 1;
+    grid-row: 1;
+  }
 
-/* .tema4 {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  /* background: url(billeder) no-repeat; */
-  /* position: relative; */
+  .billedertema4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 
+  .billedertema4 img {
+    max-width: 95%;
+    /* border: 1px solid #000; */
+  }
 
-.tema4tekst {
-  padding: 0% 15%;
-  grid-column: 1;
-  grid-row: 1;
+  .caption {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 0.7rem;
+    padding-bottom: 5%;
+    font-style: italic;
+  }
+
+  .tema4 {
+    display: grid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: url(billeder/SVG/baggrundgroen1.svg) no-repeat;
+    grid-template-columns: 1fr 1.4fr;
+    grid-template-rows: 1fr;
+    position: relative;
+  }
+
+  .tema4java {
+    display: grid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: url(billeder/SVG/baggrundgroen2.svg) no-repeat;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+  }
+
+  .tema4tekst1 {
+    padding: 0% 15%;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .javabilleder {
+    max-width: 70%;
+    border: 1px solid #000;
+    background-color: white;
+    padding-left: 1%;
+  }
 }
+@media (max-width: 1000px) {
+  .tema4,
+  .tema4java {
+    padding: 5%;
+  }
 
-.billedertema4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  .caption {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 0.7rem;
+    padding-bottom: 5%;
+    font-style: italic;
+    padding-left: 2%;
+  }
+
+  .tema4tekst1 {
+    padding-bottom: 5%;
+  }
+
+  .javabilleder {
+    max-width: 100%;
+    border: 1px solid #000;
+    background-color: white;
+  }
 }
-
-.billedertema4 img {
-  max-width: 95%;
-  /* border: 1px solid #000; */
-}
-
-.caption {
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 0.7rem;
-  padding-bottom: 5%;
-  font-style: italic;
-}
-
-.tema4 {
-  display: grid;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background: url(billeder/SVG/baggrundgroen1.svg) no-repeat;
-  grid-template-columns: 1fr 1.4fr;
-  grid-template-rows: 1fr;
-  position: relative;
-}
-
-.tema4java {
-  display: grid;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background: url(billeder/SVG/baggrundgroen2.svg) no-repeat;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  position: relative;
-}
-
-.tema4tekst1 {
-   padding: 0% 15%;
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.javabilleder {
-  max-width: 70%;
-border: 1px solid #000;
-background-color: white;
-padding-left: 1%;
-}
-
-
-/* 
-.tema3tekst1 {
-  padding: 0% 15%;
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.billedertema31 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-/* 
-
-

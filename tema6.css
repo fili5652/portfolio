@@ -1,50 +1,72 @@
-/* HER STARTER INDHOLD TEMA 3 */
+@media (min-width: 800px) {
+  .tema6 {
+    display: grid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: url(billeder/SVG/tema2baggrund.svg) no-repeat;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+  }
 
-.tema6 {
-  display: grid;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background: url(billeder/SVG/tema2baggrund.svg) no-repeat;
-  grid-template-columns: 1.2fr 1fr;
-  grid-template-rows: 1fr;
-  position: relative;
+  .tema6tekst {
+    padding-left: 15%;
+    padding-right: 7%;
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+  .billedertema6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-size: cover;
+  }
+
+  .adobe {
+    padding-top: 5%;
+  }
+
+  .skitse img {
+    max-width: 90%;
+  }
+
+  .tema6 img {
+    border: 1px solid #000;
+  }
+
+  .skitse2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+  }
+
+  .caption {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 0.7rem;
+    padding-bottom: 5%;
+    font-style: italic;
+  }
 }
 
-.tema6tekst {
-  padding-left: 15%;
-  padding-right: 7%;
-  grid-column: 1/2;
-  grid-row: 1;
-}
+@media (max-width: 800px) {
+  .tema6 {
+    padding: 5%;
+  }
+  .caption {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 0.7rem;
+    padding-bottom: 5%;
+    font-style: italic;
+  }
+  .skitse img {
+    max-width: 100%;
+  }
 
-.billedertema6 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  background-size: cover;
-}
-
-.adobe {
-  padding-top: 5%;
-}
-
-.skitse img {
-  max-width: 90%;
-}
-
-.tema6 img {
-  border: 1px solid #000;
-}
-
-.skitse2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 100%;
-}
-
-.caption {
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 0.7rem;
-  padding-bottom: 5%;
-  font-style: italic;
+  .tema6 img {
+    border: 1px solid #000;
+  }
+  .adobe {
+    padding-top: 5%;
+  }
 }

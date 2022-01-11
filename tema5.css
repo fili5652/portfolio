@@ -1,35 +1,47 @@
-iframe {
-  padding-top: 2rem;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
+@media (min-width: 800px) {
+  iframe {
+    padding-top: 2rem;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  video {
+    padding-top: 2rem;
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 1200px;
+  }
+
+  .videohjemmeside {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+
+  /* HER STARTER INDHOLD TEMA 4 */
+
+  .tema5 {
+    justify-content: center;
+    background: url(billeder/SVG/tema2baggrund.svg);
+    background-size: cover;
+    position: absolute;
+  }
+
+  .tema5tekst {
+    padding: 2% 10%;
+    padding-right: 40%;
+  }
 }
-
-video {
-  padding-top: 2rem;
-  width: 100%;
-  height: auto;
-  display: block;
-  max-width: 1200px;
-}
-
-.videohjemmeside {
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 5%;
-}
-
-/* HER STARTER INDHOLD TEMA 4 */
-
-.tema5 {
-  justify-content: center;
-  background: url(billeder/SVG/tema2baggrund.svg);
-  position: absolute;
-}
-
-.tema5tekst {
-  padding: 2% 10%;
-  padding-right: 30%;
-  grid-column: 1;
-  grid-row: 1;
+@media (max-width: 800px) {
+  .tema5 {
+    padding: 5%;
+    background: url(billeder/SVG/tema2baggrund.svg);
+    background-size: cover;
+  }
+  .tema5tekst {
+    padding-top: 10%;
+    padding-bottom: 4%;
+  }
 }
